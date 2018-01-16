@@ -1,3 +1,33 @@
-.jumbotron{
-  background-image: url(https://static.pexels.com/photos/39517/rose-flower-blossom-bloom-39517.jpeg)
+.kek{
+  background-image: url("Images/jumbotron.jpg");
+    background-size: cover;
+}
+.back {
+  background-color: Bisque;
+}
+.headerBack{
+  background-color: BurlyWood;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
+.photo {
+  display: inline;
+}
+.headerText{
+  font-family:monospace;
+}
+.activeH {
+  color: white;
+  border-top:1px;
+  border-bottom:1px;
+  border-left: 0;
+  border-right: 0;
+  border-color: black;
+  border-style:solid;
+}
+.video{
+  height: auto;
+  max-width: 100%;
+  display: block;
 }
