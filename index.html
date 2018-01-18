@@ -5,9 +5,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+<body class = "back">
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark header">
     <a class="navbar-brand" href="#">Manuel Hernández</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -20,8 +21,12 @@
       </div>
   </div>
 </nav>
-<div class = "container">
-  <div class = "container-fluid jumbotron" id ="ABOUT">
+
+  <div class ="jumbotron kek">
+    <h1 class="text">Manuel Hernández</h1>
+  </div>
+  <div class="container-fluid">
+  <div class = "container-fluid" id ="ABOUT">
   <h3>About Me</h3>
   <p>
     My name is Manuel Hernández. I am a video game development student at the <a href="https://www.ucm.es/">Complutense University of Madrid</a>
@@ -31,33 +36,44 @@
   </p>
   </div>
   <div class = "container-fluid" id ="PROJECTS">
-    <h3>Projects</h3>
-    <p>
-      This are some of the projects in which I have taken part.
-    </p>
-    <ul>
-      <li>
-        Not a Studio projects
-        <ul>
-        <li class = "game">
-          One night awake
-        </li>
-        <li class = "game">
-          Not Human
-        </li>
-        </ul>
-        <li>
-          Kekstar projects
-          <ul>
-            <li>
-              <a href="https://kekstar.github.io">Rex Vult</a>
-            </li>
-          </ul>
-        </li>
-      </li>
-    </ul>
-  </div>
+
+    <h3 class = "text">Projects</h3>
+    <p> Here you can find some of the projects I have taken part in</p>
+      <div class = "row">
+        <div class= "col-md-6 container-fluid">
+          <h5 class = "text"> Not A Studio Projects</h5>
+          <div class = "row">
+          <div class = "col-md-6 container" id="ona">
+            <h6 >ONE NIGHT AWAKE</h6>
+            <p>A Game about a little girl and her horrible nightmares.</p>
+            <p>Will you be capable of beating your nightmares?</p>
+          </div>
+          <div class = "col-md-6 container-fluid">
+            <h6 >NOT HUMAN</h6>
+            <p>Did you ever dreamt about being a toaster? Well, our team did!</p>
+            <p>Put yourself in the skin of 'Toasty', the little toaster from outer space that is ready to kick-ass!</p>
+            <img class="img-responsive" src="Images/Placeholder.png">
+          </div>
+          </div>
+        </div>
+        <div class= "col-md-6 container-fluid">
+          <h5 class = "text"> Kekstar Projects</h5>
+          <div class = "row">
+
+          <div class = "col-md-6">
+            <h6 >Rex Vult</h6>
+            <button class="btn btn-block">Check it out</button>
+          </div>
+          <div class = "col-md-6">
+            <h6 ></h6>
+          </div>
+          </div>
+        </div>
+      </div>
+
+
   <div class ="container-fluid" id ="CONTACT">
+    <div class = "row">
     <h3>Contact</h3>
     <p>
       If you need to contact me or you have noticed any bugs or have any suggestions
@@ -72,7 +88,12 @@
       </li>
     </ul>
   </div>
+  </div>
 </div>
+<div class="footer-copyright small">
+        <div class="container-fluid">
+            © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
 
-
+        </div>
+    </div>
 </body>

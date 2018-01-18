@@ -3,13 +3,16 @@
     background-size: cover;
 }
 .back {
-  background-color: Bisque;
+  background-color: darkslategrey;
+  color: lightgray;
 }
-.headerBack{
-  background-color: BurlyWood;
-  border: 1px;
-  border-color: black;
-  border-style: solid;
+h3{
+  color: LemonChiffon;
+}
+#ona{
+  color: black;
+  background-size: cover;
+
 }
 .photo {
   display: inline;
@@ -17,17 +20,9 @@
 .headerText{
   font-family:monospace;
 }
-.activeH {
-  color: white;
-  border-top:1px;
-  border-bottom:1px;
-  border-left: 0;
-  border-right: 0;
-  border-color: black;
-  border-style:solid;
-}
 .video{
   height: auto;
   max-width: 100%;
   display: block;
+  align-items: center;
 }
